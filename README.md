@@ -7,7 +7,7 @@ kubek, webmin, playit в коробке.
 
 ```bash
 # скачай пенис
-wget https://raw.githubusercontent.com/твой-аккаунт/репозиторий/main/install.sh
+wget https://raw.githubusercontent.com/Matevin/arslansosal/main/install.sh
 
 # дай ему зайти в хату 
 chmod +x install.sh
