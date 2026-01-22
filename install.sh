@@ -41,12 +41,6 @@ Environment=NODE_ENV=production
 WantedBy=multi-user.target
 EOL
 
-echo "portososal"
-curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null
-echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data ./" | tee /etc/apt/sources.list.d/playit-cloud.list
-apt update
-apt install playit
-
 systemctl daemon-reload
 systemctl enable minecraft.service
 systemctl enable kubek.service
